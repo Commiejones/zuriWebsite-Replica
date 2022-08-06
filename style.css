@@ -1,0 +1,258 @@
+@font-face{
+    font-family: Averta;
+    src:url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Averta,sans-serif;
+    
+}
+/* zuri landing page */
+.header{
+    background-image: url(/homie/hero-bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50rem;
+}
+.logo{
+    display: flex;
+    padding:4rem;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    margin: auto;
+    justify-content: center;
+}
+.intro{
+    max-width: 800px;
+    margin:0 auto;
+    padding: 10px;
+
+}
+.intro h2{
+    text-align: center;
+    color: #514949;
+    line-height: 1.4em;
+    padding: 5px auto;
+    font-size: 30px;
+
+}
+.intro p{
+    color: #514949;
+    line-height: 2rem;
+    padding: 20px 15px;
+    font-size: 17px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    text-align: center;
+}
+.intro a{
+    text-decoration: none;
+    color: #e7332b;
+}
+.btn{
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.btn1 {
+    background-color:#e7332b;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    border:1px solid #e7332b;
+    font-size: 15px;
+    margin-right: 1em;
+}
+.btn1:hover{
+    color: #e7332b;
+    background-color: #fff;
+    transition: .5s;
+}
+.btn2 {
+    background-color:#fff;
+    color: #e7332b;
+    text-align: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    border:1px solid #e7332b;
+    font-size: 15px;
+    margin-left: 1em;
+
+}
+.btn2:hover{
+    background-color: #e7332b;
+    color: #fff;
+}
+.program_section{
+    background-color: #fff;
+
+}
+.program_section h6{
+    margin-top: 8em;
+    color: #e7332b;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
+
+}
+.program_section .mission{
+    margin-top: 5px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #514949;
+    line-height: 1.5em;
+    font-size: 24px;
+}
+.sections{
+    display: flex;
+    color: #514949;
+    flex-direction: column;
+    background-color: #fff;
+
+}
+
+.sections .secs{
+background-image: url(/homie/hero-bg.svg);
+background-size: cover;
+background-position: left ;
+background-repeat: no-repeat;
+margin: 1.5em 2em;
+height:400px;
+}
+.sections .secs img{
+    margin-left: 2em;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    position: relative;
+}
+.sections .secs p{
+    margin-left: 2em;
+    margin-right: 2.5em;
+    margin-bottom: 1.5em;
+    line-height: 1.5em;
+    font-size: 17px;
+    color: #514949;
+}
+.sections .secs a{
+    color: #e7332b;
+    text-decoration: none;
+    margin-bottom: 2em;
+    margin-left: 2em;
+
+}
+.footer{
+    margin-top: 15em;
+    margin-bottom: em;
+
+}
+.footer_items{
+    display: flex;
+    margin: 1em;
+}
+ .footer_items div {
+    margin-left: 2em;
+    margin-right: 10em;
+    justify-content: space-between;
+}
+
+
+
+.footer_items .foot1 img{
+    position: relative;
+    padding-top: .5em;
+}
+
+.footer_items .foot2 h4{
+    color: #514949;
+    font-size: 15px;
+    padding-top: .5em;
+}
+.footer_items .foot2 a{
+    text-decoration: none;
+    color: #e7332b;
+    font-size:15px ;
+}
+    
+.footer_items .foot2 ul li{
+    list-style: none;
+}
+.footer_items .foot2 li{
+    margin-top: .5em;
+
+}
+.foot3{
+    margin-right: 3em;
+}
+
+.footer_items .foot3 h4{
+    color: #514949;
+    font-size: 15px;
+    padding-top: .5em;
+
+}
+.footer_items .foot3 ,ul, li{
+    list-style:none;
+}
+.footer_items .foot3 ,ul, li, p{
+    color: #514949;
+    font-size: 12px;
+    
+}
+.footer_items .foot3 ,ul, li,a{
+    text-decoration: none;
+    color: #e7332b;
+}
+.footer_items .foot3 li{
+    margin-top: .5em;
+
+}
+.footer_items .foot4 h4{
+    color: #514949;
+    font-size: 15px;
+    padding-top: .5em;
+
+
+}
+.foot4 .f1{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    position: relative;
+    margin-top: .5em;
+    flex-direction: row;
+}
+.f1 img{
+    max-width: 100%;
+    max-height: 100%;
+   
+}
+
+.brk{
+    margin-top: 4em;
+}
+.brk hr{ 
+    margin-left: 1em;
+    margin-right: 1em;
+    color: #514949;
+
+}
+.butt{
+    margin-top: 3em;
+    padding-bottom: 8em;
+
+}
+.butt h4{
+    text-align: center;
+    font-size: 16px;
+    color: #514949;
+}

@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Graphik';
+    font-style: normal;
+    src: local('Graphik'), url('https://fonts.cdnfonts.com/s/27112/GraphikRegular.woff') format('woff');
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Graphik;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255,253,245);
+}
+.header{
+    padding-top: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.header_cnt{
+    display: flex;
+    justify-content: space-between;
+}
+.header2{
+    display: flex;
+}
+.header2 div{
+    margin-right: 2em;
+}
+.header2 div a{
+    text-decoration: none;
+    color: #585858;
+    font-size: 20px;
+    font-family: Graphik;
+}
+.header3{
+    display: flex;
+    margin-bottom: 1em;
+}
+.thumb{
+    height: 80px;
+    width: 80px;
+    background-color: #e7332b;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -20px;
+    margin-right: 2em;
+}
+.thumb img{
+    max-width: auto;
+    max-height: 100%;
+    position: relative;
+}
+ .header3 p{
+    background-color: #e7332b;
+    padding-top: 1em;
+    padding-left: 3em;
+    padding-right: 2em;
+    padding-bottom: 1em;
+    border-radius: 1.5em;
+    margin-left: 3em;
+    font-size: 16px;
+    color: #fff;
+    font-family: Graphik;
+    letter-spacing: 1px;
+    
+}
+.sec_1{
+    margin-top: 4em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+.sec_1 .p1{
+    font-family: Graphik;
+    font-size: 18px;
+    text-align: center;
+    color: #e7332b;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+.section .img1{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(255,253,245);
+}
+.img1 img{
+    width: auto;
+    height: 100%;
+    background-color: rgb(255,253,245);
+}
+.section2{
+    margin-top: 1em;
+}
+.section2 .sec2 h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Graphik;
+    margin-left: 1em;
+    margin-right: 1em;
+    
+    
+
+}
